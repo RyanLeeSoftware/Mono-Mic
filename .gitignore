@@ -1,0 +1,12 @@
+build/
+build-next/
+*.noindex/
+.DS_Store
+xcuserdata/
+*.xcuserstate
+dist/
+*.profraw
+__pycache__/
+*.p12
+*.mobileprovision
+*.provisionprofile

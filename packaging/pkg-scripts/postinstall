@@ -1,0 +1,16 @@
+#!/bin/bash
+set -euo pipefail
+source "$(dirname "$0")/common.sh"
+volume="${3:-/}"
+root="$(cd "$volume" && pwd -P)"; root="${root%/}"
+check_parents "$root"
+check_bundle "$root/Applications/Mono Mic.app" 'local.motu.monomic'
+check_bundle "$root/Library/Audio/Plug-Ins/HAL/MOTUMonoMic.driver" 'local.motu.monomic.driver'
+/usr/bin/codesign --verify --deep --strict "$root/Applications/Mono Mic.app"
+/usr/bin/codesign --verify --strict "$root/Library/Audio/Plug-Ins/HAL/MOTUMonoMic.driver"
+# Per-user launch agents and microphone permission belong to first launch.
+if [ -z "$root" ]; then
+    [ "$EUID" -eq 0 ] || exit 1
+    /usr/bin/killall coreaudiod 2>/dev/null || true
+fi
+printf 'Mono Mic installed. Open Mono Mic from Applications to choose an interface and input.\n'

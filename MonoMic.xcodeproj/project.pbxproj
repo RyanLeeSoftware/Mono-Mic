@@ -1,0 +1,1582 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = "1";
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"objects" = {
+		"55574484D520B31E854259DD" = {
+            "isa" = "PBXFileReference";
+            "lastKnownFileType" = "image.pdf";
+            "path" = "resources/MenuBarIcon.pdf";
+            "sourceTree" = "<group>";
+        };
+        "BB0B7CA25595D33891D7DCE5" = { "isa" = "PBXBuildFile"; "fileRef" = 55574484D520B31E854259DD; };
+        "5D2442D333BF0BC63C0D23FC" = { "isa" = "PBXBuildFile"; "fileRef" = 55574484D520B31E854259DD; };
+        "DDDCCB2F31772B3D27674099" = {
+            "isa" = "PBXFileReference";
+            "lastKnownFileType" = "text.script.sh";
+            "path" = "scripts/build-icons.sh";
+            "sourceTree" = "<group>";
+        };
+		"C098C21FBE6D592AC5E723AB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "Foundation.framework";
+			"path" = "System/Library/Frameworks/Foundation.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"9694B95F4FBF087BF05D19FB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "AppKit.framework";
+			"path" = "System/Library/Frameworks/AppKit.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"EDEF6E74797027D2A92ADE24" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "AVFoundation.framework";
+			"path" = "System/Library/Frameworks/AVFoundation.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"566E8C28AF72A9EE82B30FC0" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "CoreAudio.framework";
+			"path" = "System/Library/Frameworks/CoreAudio.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"36B22E90EB926A372F599080" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "CoreFoundation.framework";
+			"path" = "System/Library/Frameworks/CoreFoundation.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"CA001AFAE8D556532763004A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "AudioUnit.framework";
+			"path" = "System/Library/Frameworks/AudioUnit.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"2EE4D479CE80D8D5624CC344" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "AudioToolbox.framework";
+			"path" = "System/Library/Frameworks/AudioToolbox.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"92B1FED2DBA6139B05776B6B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "Accelerate.framework";
+			"path" = "System/Library/Frameworks/Accelerate.framework";
+			"sourceTree" = "SDKROOT";
+		};
+		"4B001738AB9A52913C4E883F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "wrapper.framework";
+			"name" = "XCTest.framework";
+			"path" = "Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework";
+			"sourceTree" = "DEVELOPER_DIR";
+		};
+		"2593192135E37BDAF08F439F" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "archive.ar";
+			"includeInIndex" = "0";
+			"path" = "libMonoMicCore.a";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"B8381B1D554F5919D67BAB95" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = "0";
+			"path" = "Mono Mic.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"774029411BA53ADFDBE70C4F" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = "0";
+			"path" = "Mono Mic Service.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"65EAFD48077813300EED13E9" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"includeInIndex" = "0";
+			"path" = "MOTUMonoMic.driver";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"EAE1BF8E6705BDD63FC212BA" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"includeInIndex" = "0";
+			"path" = "MonoMicTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"241CABFD6C3C0A968DA4CA14" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "compiled.mach-o.executable";
+			"includeInIndex" = "0";
+			"path" = "audio-probe";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"DC28B2C0DB07920EFD383B6E" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "compiled.mach-o.executable";
+			"includeInIndex" = "0";
+			"path" = "audio-device-control";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"674E34017A0C87B7F6F2125D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/AudioDevices.mm";
+			"sourceTree" = "<group>";
+		};
+		"7CBE4FA6D57D34EBBFE9A9BB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 674E34017A0C87B7F6F2125D;
+		};
+		"8EB0058B16BE167EA07B6DCD" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/AudioBridge.mm";
+			"sourceTree" = "<group>";
+		};
+		"005F6ECF7BC96522F074D974" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 8EB0058B16BE167EA07B6DCD;
+		};
+		"A0F6A3D05F986C084FB16A4F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/Settings.mm";
+			"sourceTree" = "<group>";
+		};
+		"0991755A13427EAFBE0D126A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = A0F6A3D05F986C084FB16A4F;
+		};
+		"AE12BDC9316EDDC99C092C1D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "src/SharedMeter.cpp";
+			"sourceTree" = "<group>";
+		};
+		"1B06731906D5AA0CD11AAF40" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = AE12BDC9316EDDC99C092C1D;
+		};
+		"ABA54D74FE54D32C3D832C77" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				7CBE4FA6D57D34EBBFE9A9BB,
+				005F6ECF7BC96522F074D974,
+				0991755A13427EAFBE0D126A,
+				1B06731906D5AA0CD11AAF40,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"0C68C14E81FB41B9C15A9B7A" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"5668BA7AFAC2576F0A4A100E" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MonoMicCore";
+				"SKIP_INSTALL" = "YES";
+				"CODE_SIGNING_ALLOWED" = "NO";
+			};
+			"name" = "Debug";
+		};
+		"30B7B7A06FB044E1CC70A7CC" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MonoMicCore";
+				"SKIP_INSTALL" = "YES";
+				"CODE_SIGNING_ALLOWED" = "NO";
+			};
+			"name" = "Release";
+		};
+		"64F2091076C606DAAD5E9E4A" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				5668BA7AFAC2576F0A4A100E,
+				30B7B7A06FB044E1CC70A7CC,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"21974AAFC08E4A5D83387648" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = 64F2091076C606DAAD5E9E4A;
+			"buildPhases" = (
+				ABA54D74FE54D32C3D832C77,
+				0C68C14E81FB41B9C15A9B7A,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "MonoMicCore";
+			"productName" = "MonoMicCore";
+			"productReference" = 2593192135E37BDAF08F439F;
+			"productType" = "com.apple.product-type.library.static";
+		};
+		"C273C48546E625893E52E035" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/main.mm";
+			"sourceTree" = "<group>";
+		};
+		"37DDBB1F7D9D12F3AF7ED56E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = C273C48546E625893E52E035;
+		};
+		"7AF6E882C25F79D2392FCEC7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/Agent.mm";
+			"sourceTree" = "<group>";
+		};
+		"AA63954A5A24BECB49F7C4C6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 7AF6E882C25F79D2392FCEC7;
+		};
+		"DD2E761914933154457B6C4C" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				37DDBB1F7D9D12F3AF7ED56E,
+				AA63954A5A24BECB49F7C4C6,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"AD436351EAFEBA210D9F0777" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2593192135E37BDAF08F439F;
+		};
+		"65F8C34A189BFEF2629F4744" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 9694B95F4FBF087BF05D19FB;
+		};
+		"F0A39E56AF015D3E5413AA0A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = EDEF6E74797027D2A92ADE24;
+		};
+		"D7BB43A849E19D04E97759E1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"F3A98A3291766DCC7AD2F641" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = CA001AFAE8D556532763004A;
+		};
+		"72F5A29C5E5C3FBED8774DD6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2EE4D479CE80D8D5624CC344;
+		};
+		"5383D413DD7DE086FC2F3365" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				AD436351EAFEBA210D9F0777,
+				65F8C34A189BFEF2629F4744,
+				F0A39E56AF015D3E5413AA0A,
+				D7BB43A849E19D04E97759E1,
+				F3A98A3291766DCC7AD2F641,
+				72F5A29C5E5C3FBED8774DD6,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"580130ACC7C6F13BFE1E976D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "vendor/BlackHole/LICENSE";
+			"sourceTree" = "<group>";
+		};
+		"39C747787EC9CA98074AB680" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 580130ACC7C6F13BFE1E976D;
+		};
+		"E84E52E2C7A6F75BEC6DCF1F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.icns";
+			"path" = "resources/MonoMic.icns";
+			"sourceTree" = "<group>";
+		};
+		"9853CE923F529399864F1511" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = E84E52E2C7A6F75BEC6DCF1F;
+		};
+		"35CB13021514EDA60691CA57" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				BB0B7CA25595D33891D7DCE5,
+				39C747787EC9CA98074AB680,
+				9853CE923F529399864F1511,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"B63BE34C54943653B6C85378" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 774029411BA53ADFDBE70C4F;
+			"settings" = {
+				"ATTRIBUTES" = (
+					"CodeSignOnCopy",
+					"RemoveHeadersOnCopy",
+				);
+			};
+		};
+		"2D1963DCE4737FF93D880155" = {
+			"isa" = "PBXCopyFilesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"dstPath" = "Contents/Library/LoginItems";
+			"dstSubfolderSpec" = "1";
+			"files" = (
+				B63BE34C54943653B6C85378,
+			);
+			"name" = "Embed Audio Service";
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"6CDD0C41A77798C398919EA8" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Mono Mic";
+				"EXECUTABLE_NAME" = "MonoMic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic";
+				"INFOPLIST_FILE" = "resources/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "resources/MonoMic.entitlements";
+				"SKIP_INSTALL" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Debug";
+		};
+		"B4303ACFCC78FD5B1AB91861" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Mono Mic";
+				"EXECUTABLE_NAME" = "MonoMic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic";
+				"INFOPLIST_FILE" = "resources/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "resources/MonoMic.entitlements";
+				"SKIP_INSTALL" = "NO";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Release";
+		};
+		"4285ABCE6A2116EB789AE54A" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				6CDD0C41A77798C398919EA8,
+				B4303ACFCC78FD5B1AB91861,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"F5415803927C182FED9D0C89" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = 21974AAFC08E4A5D83387648;
+			"remoteInfo" = "MonoMicCore";
+		};
+		"DA61849E6C975B24FF6DD766" = {
+			"isa" = "PBXTargetDependency";
+			"target" = 21974AAFC08E4A5D83387648;
+			"targetProxy" = F5415803927C182FED9D0C89;
+		};
+		"5A80FA0A66C488D9490B4019" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = F02BFAA96364199534CAE1C8;
+			"remoteInfo" = "Mono Mic Service";
+		};
+		"CB458DA62CC6EC364ECC84EF" = {
+			"isa" = "PBXTargetDependency";
+			"target" = F02BFAA96364199534CAE1C8;
+			"targetProxy" = 5A80FA0A66C488D9490B4019;
+		};
+		"065FEFC686A13ED347D8F8B7" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = 4285ABCE6A2116EB789AE54A;
+			"buildPhases" = (
+				DD2E761914933154457B6C4C,
+				5383D413DD7DE086FC2F3365,
+				35CB13021514EDA60691CA57,
+				2D1963DCE4737FF93D880155,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				DA61849E6C975B24FF6DD766,
+				CB458DA62CC6EC364ECC84EF,
+			);
+			"name" = "Mono Mic";
+			"productName" = "Mono Mic";
+			"productReference" = B8381B1D554F5919D67BAB95;
+			"productType" = "com.apple.product-type.application";
+		};
+		"B1B3BF802A20EE7184B40A5F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/service_main.mm";
+			"sourceTree" = "<group>";
+		};
+		"7527252288C3E5E7BFDE5F5E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = B1B3BF802A20EE7184B40A5F;
+		};
+		"FF0710F483748D56258266CE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 7AF6E882C25F79D2392FCEC7;
+		};
+		"3E9E61A036BDA0B4C9CED134" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				7527252288C3E5E7BFDE5F5E,
+				FF0710F483748D56258266CE,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"FF4D06ACFBEF6A68B78A02D0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2593192135E37BDAF08F439F;
+		};
+		"A47E03542096454427281211" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 9694B95F4FBF087BF05D19FB;
+		};
+		"827F209CB040D4118348D48D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = EDEF6E74797027D2A92ADE24;
+		};
+		"0FEE9282BE203E190AB140FF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"6B33E5992D65AFF57771CC8C" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = CA001AFAE8D556532763004A;
+		};
+		"2F40B5A033CF0D505FFE2C49" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2EE4D479CE80D8D5624CC344;
+		};
+		"A5F0294D9EC7D31FC1B07FA4" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				FF4D06ACFBEF6A68B78A02D0,
+				A47E03542096454427281211,
+				827F209CB040D4118348D48D,
+				0FEE9282BE203E190AB140FF,
+				6B33E5992D65AFF57771CC8C,
+				2F40B5A033CF0D505FFE2C49,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"36736AF1DC0A1FFF93DB61D5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 580130ACC7C6F13BFE1E976D;
+		};
+		"B886D9CF744E3AC8C37577B0" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = E84E52E2C7A6F75BEC6DCF1F;
+		};
+		"33955E319C046FAD8E1C5311" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				5D2442D333BF0BC63C0D23FC,
+				36736AF1DC0A1FFF93DB61D5,
+				B886D9CF744E3AC8C37577B0,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"1C6D3F87C8C9AB60A7327F02" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Mono Mic Service";
+				"EXECUTABLE_NAME" = "MonoMicService";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.service";
+				"INFOPLIST_FILE" = "resources/Service-Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "resources/MonoMic.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Debug";
+		};
+		"4D5B1316CA2D3AAF46C2B18C" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "Mono Mic Service";
+				"EXECUTABLE_NAME" = "MonoMicService";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.service";
+				"INFOPLIST_FILE" = "resources/Service-Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "resources/MonoMic.entitlements";
+				"SKIP_INSTALL" = "YES";
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+			};
+			"name" = "Release";
+		};
+		"56FE81699E3E3FD2C619F496" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				1C6D3F87C8C9AB60A7327F02,
+				4D5B1316CA2D3AAF46C2B18C,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"5E865F00CBFD83C25A8915A4" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = 21974AAFC08E4A5D83387648;
+			"remoteInfo" = "MonoMicCore";
+		};
+		"416108139AA3CEB21F9BFC85" = {
+			"isa" = "PBXTargetDependency";
+			"target" = 21974AAFC08E4A5D83387648;
+			"targetProxy" = 5E865F00CBFD83C25A8915A4;
+		};
+		"F02BFAA96364199534CAE1C8" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = 56FE81699E3E3FD2C619F496;
+			"buildPhases" = (
+				3E9E61A036BDA0B4C9CED134,
+				A5F0294D9EC7D31FC1B07FA4,
+				33955E319C046FAD8E1C5311,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				416108139AA3CEB21F9BFC85,
+			);
+			"name" = "Mono Mic Service";
+			"productName" = "Mono Mic Service";
+			"productReference" = 774029411BA53ADFDBE70C4F;
+			"productType" = "com.apple.product-type.application";
+		};
+		"47259AA23AE761014531E924" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "driver/MonoDriver.c";
+			"sourceTree" = "<group>";
+		};
+		"B0673912C0247ED959156244" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 47259AA23AE761014531E924;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Wno-format-extra-args";
+			};
+		};
+		"B803BB54D7CCC7CAF158B309" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				B0673912C0247ED959156244,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"5FCCAFDC5EA80994FCDAC28E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"F4C0099D2D73B5CE37D07D13" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 36B22E90EB926A372F599080;
+		};
+		"6679B50D622C1CA984F39D22" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 92B1FED2DBA6139B05776B6B;
+		};
+		"C38457C35A9DDFE235E820DD" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				5FCCAFDC5EA80994FCDAC28E,
+				F4C0099D2D73B5CE37D07D13,
+				6679B50D622C1CA984F39D22,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"AAACB28272DCAE95F58C2A54" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 580130ACC7C6F13BFE1E976D;
+		};
+		"022483AEFAF773BC8879573B" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = E84E52E2C7A6F75BEC6DCF1F;
+		};
+		"FD4FEF50271CDCED523F45B5" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				AAACB28272DCAE95F58C2A54,
+				022483AEFAF773BC8879573B,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"3D96EB34074561F6AE5DB473" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MOTUMonoMic";
+				"EXECUTABLE_NAME" = "MOTUMonoMic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.driver";
+				"INFOPLIST_FILE" = "driver/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"WRAPPER_EXTENSION" = "driver";
+				"MACH_O_TYPE" = "mh_bundle";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+					"-fblocks",
+				);
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"5E24A60F85AEDD0610C8D163" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MOTUMonoMic";
+				"EXECUTABLE_NAME" = "MOTUMonoMic";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.driver";
+				"INFOPLIST_FILE" = "driver/Info.plist";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"WRAPPER_EXTENSION" = "driver";
+				"MACH_O_TYPE" = "mh_bundle";
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+					"-fblocks",
+				);
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Release";
+		};
+		"EFCFD344A93DF5285A9BE196" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				3D96EB34074561F6AE5DB473,
+				5E24A60F85AEDD0610C8D163,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"61701C83989FD81064500E3A" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = EFCFD344A93DF5285A9BE196;
+			"buildPhases" = (
+				B803BB54D7CCC7CAF158B309,
+				C38457C35A9DDFE235E820DD,
+				FD4FEF50271CDCED523F45B5,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+			);
+			"name" = "Mono Mic Driver";
+			"productName" = "MOTUMonoMic";
+			"productReference" = 65EAFD48077813300EED13E9;
+			"productType" = "com.apple.product-type.bundle";
+		};
+		"C99E3D07F36E19CB0D2889A7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "src/probe.mm";
+			"sourceTree" = "<group>";
+		};
+		"4EBC82924EE9AE86B060F0E6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = C99E3D07F36E19CB0D2889A7;
+		};
+		"00549CD94CC9E97CAD4DDD5F" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				4EBC82924EE9AE86B060F0E6,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"5012574545764564EC7D2B1F" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2593192135E37BDAF08F439F;
+		};
+		"8127D4D8F459DC6BEA4E2065" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = C098C21FBE6D592AC5E723AB;
+		};
+		"156725118156DD3F4624FCFD" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"0E70EA4EA96DCA02936F0B1F" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				5012574545764564EC7D2B1F,
+				8127D4D8F459DC6BEA4E2065,
+				156725118156DD3F4624FCFD,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"8275D2E743C1CCC203F6C2A5" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "audio-probe";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"76CE86AAA85D0DABBB65523D" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "audio-probe";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Release";
+		};
+		"F33852F931A3E76DFECDB93E" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				8275D2E743C1CCC203F6C2A5,
+				76CE86AAA85D0DABBB65523D,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"C5D749CED9DFBC180CD0C399" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = 21974AAFC08E4A5D83387648;
+			"remoteInfo" = "MonoMicCore";
+		};
+		"8FE5CE5974F549B0D8BF3921" = {
+			"isa" = "PBXTargetDependency";
+			"target" = 21974AAFC08E4A5D83387648;
+			"targetProxy" = C5D749CED9DFBC180CD0C399;
+		};
+		"E316F609A300BC7D3DCE23D5" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = F33852F931A3E76DFECDB93E;
+			"buildPhases" = (
+				00549CD94CC9E97CAD4DDD5F,
+				0E70EA4EA96DCA02936F0B1F,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				8FE5CE5974F549B0D8BF3921,
+			);
+			"name" = "Audio Probe";
+			"productName" = "audio-probe";
+			"productReference" = 241CABFD6C3C0A968DA4CA14;
+			"productType" = "com.apple.product-type.tool";
+		};
+		"25AAB31A174AAD76045FCE02" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "tests/audio_device_control.mm";
+			"sourceTree" = "<group>";
+		};
+		"775B56BC2974A1131AD7AE1A" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 25AAB31A174AAD76045FCE02;
+		};
+		"5D86A0EF097AE3327BC602DE" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				775B56BC2974A1131AD7AE1A,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"9EE1790F78CF0041403195BC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2593192135E37BDAF08F439F;
+		};
+		"B7C412B3456D1C47A85A1C00" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = C098C21FBE6D592AC5E723AB;
+		};
+		"9C7CEB70688153D0FABECBA2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"4F55542DB359F6802E2B47DF" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				9EE1790F78CF0041403195BC,
+				B7C412B3456D1C47A85A1C00,
+				9C7CEB70688153D0FABECBA2,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"A594EC9DC3BFD26A57AB323A" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "audio-device-control";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"1A0DB280822EBCF53539442B" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "audio-device-control";
+				"CODE_SIGNING_ALLOWED" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Release";
+		};
+		"FAAD90493829495725167397" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				A594EC9DC3BFD26A57AB323A,
+				1A0DB280822EBCF53539442B,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"C4AD0618B20FCDBC6CCAD0A5" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = 21974AAFC08E4A5D83387648;
+			"remoteInfo" = "MonoMicCore";
+		};
+		"573EB986242C0F4FEB957663" = {
+			"isa" = "PBXTargetDependency";
+			"target" = 21974AAFC08E4A5D83387648;
+			"targetProxy" = C4AD0618B20FCDBC6CCAD0A5;
+		};
+		"16FC051E1864D0EFEDB0D7E7" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = FAAD90493829495725167397;
+			"buildPhases" = (
+				5D86A0EF097AE3327BC602DE,
+				4F55542DB359F6802E2B47DF,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				573EB986242C0F4FEB957663,
+			);
+			"name" = "Audio Device Control";
+			"productName" = "audio-device-control";
+			"productReference" = DC28B2C0DB07920EFD383B6E;
+			"productType" = "com.apple.product-type.tool";
+		};
+		"687E8B51908C9BF254B476D6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "tests/XcodeTests.mm";
+			"sourceTree" = "<group>";
+		};
+		"45BC7BFDD1C1F81831E331E9" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 687E8B51908C9BF254B476D6;
+		};
+		"4B1E819D58B09A309E5D9CA3" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "tests/latency_tests.cpp";
+			"sourceTree" = "<group>";
+		};
+		"105FBB29E4658BE0800CA2D5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 4B1E819D58B09A309E5D9CA3;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Dmain=MonoMicLatencyTestsMain";
+			};
+		};
+		"5488897E1BF99809F93228CB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "tests/pipeline_tests.cpp";
+			"sourceTree" = "<group>";
+		};
+		"17A505AB407741577FDDC546" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 5488897E1BF99809F93228CB;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Dmain=MonoMicPipelineTestsMain";
+			};
+		};
+		"9E08620AD51D14C0CF26E2D1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.cpp";
+			"path" = "tests/audio_controls_tests.cpp";
+			"sourceTree" = "<group>";
+		};
+		"80F3E8A82ED32B6A87EF8BD5" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 9E08620AD51D14C0CF26E2D1;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Dmain=MonoMicAudioControlsTestsMain";
+			};
+		};
+		"83DB685737C4D95C93D8153E" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "tests/settings_tests.mm";
+			"sourceTree" = "<group>";
+		};
+		"DDDA5423B87940E1DD3B237E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 83DB685737C4D95C93D8153E;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Dmain=MonoMicSettingsTestsMain";
+			};
+		};
+		"578D0833C2083274F24D2F67" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "tests/driver_tests.c";
+			"sourceTree" = "<group>";
+		};
+		"556E569C4CD5200C36DA36C8" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 578D0833C2083274F24D2F67;
+			"settings" = {
+				"COMPILER_FLAGS" = "-Dmain=MonoMicDriverTestsMain -Wno-format-extra-args";
+			};
+		};
+		"28D85C1D90B3631743B69FF5" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				45BC7BFDD1C1F81831E331E9,
+				105FBB29E4658BE0800CA2D5,
+				17A505AB407741577FDDC546,
+				80F3E8A82ED32B6A87EF8BD5,
+				DDDA5423B87940E1DD3B237E,
+				556E569C4CD5200C36DA36C8,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"5D7B943302ECA55F9BE7DAC6" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2593192135E37BDAF08F439F;
+		};
+		"506C13D8BB597D99C2D59B4E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 4B001738AB9A52913C4E883F;
+		};
+		"DA838FEDC26DD6A5E346ED28" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 9694B95F4FBF087BF05D19FB;
+		};
+		"C0856B5B18A1F62C3BF40D9E" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = EDEF6E74797027D2A92ADE24;
+		};
+		"A14E5C400FCE3B86BAF29ECC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 566E8C28AF72A9EE82B30FC0;
+		};
+		"0CD60BDB8FEA6A2361A6DA35" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = CA001AFAE8D556532763004A;
+		};
+		"9547C2308A53993A326C861D" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 2EE4D479CE80D8D5624CC344;
+		};
+		"2DD68B58CA2C829DBAE557A2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = 92B1FED2DBA6139B05776B6B;
+		};
+		"4862074A1D8AD5A08C0AC08B" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				5D7B943302ECA55F9BE7DAC6,
+				506C13D8BB597D99C2D59B4E,
+				DA838FEDC26DD6A5E346ED28,
+				C0856B5B18A1F62C3BF40D9E,
+				A14E5C400FCE3B86BAF29ECC,
+				0CD60BDB8FEA6A2361A6DA35,
+				9547C2308A53993A326C861D,
+				2DD68B58CA2C829DBAE557A2,
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"944FDAFE0FC8556FCB66D04C" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"B24C2A0633E0CFAB95885F75" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MonoMicTests";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.tests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "2";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"DEBUG=1",
+					"MONOMIC_XCODE_TESTS=1",
+				);
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+					"-fblocks",
+					"-UNDEBUG",
+				);
+				"OTHER_CPLUSPLUSFLAGS" = (
+					"$(OTHER_CFLAGS)",
+				);
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"FRAMEWORK_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"49BC5BD527E2656C92FFF1C3" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_NAME" = "MonoMicTests";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "local.motu.monomic.tests";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "2";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"DEBUG=1",
+					"MONOMIC_XCODE_TESTS=1",
+				);
+				"OTHER_CFLAGS" = (
+					"$(inherited)",
+					"-fblocks",
+					"-UNDEBUG",
+				);
+				"OTHER_CPLUSPLUSFLAGS" = (
+					"$(OTHER_CFLAGS)",
+				);
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+				"FRAMEWORK_SEARCH_PATHS" = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				"SKIP_INSTALL" = "YES";
+			};
+			"name" = "Release";
+		};
+		"8D15313DC35BF8C7571D0C4C" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				B24C2A0633E0CFAB95885F75,
+				49BC5BD527E2656C92FFF1C3,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"69BC68625FF1B313F7B726C7" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = 98F54143AB4E86B28C3AFEE0;
+			"proxyType" = "1";
+			"remoteGlobalIDString" = 21974AAFC08E4A5D83387648;
+			"remoteInfo" = "MonoMicCore";
+		};
+		"B05E0ADDF49DB34D2E239FA5" = {
+			"isa" = "PBXTargetDependency";
+			"target" = 21974AAFC08E4A5D83387648;
+			"targetProxy" = 69BC68625FF1B313F7B726C7;
+		};
+		"141223DC0B9AA6A66233686C" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = 8D15313DC35BF8C7571D0C4C;
+			"buildPhases" = (
+				28D85C1D90B3631743B69FF5,
+				4862074A1D8AD5A08C0AC08B,
+				944FDAFE0FC8556FCB66D04C,
+			);
+			"buildRules" = (
+			);
+			"dependencies" = (
+				B05E0ADDF49DB34D2E239FA5,
+			);
+			"name" = "MonoMicTests";
+			"productName" = "MonoMicTests";
+			"productReference" = EAE1BF8E6705BDD63FC212BA;
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"2CD7A270A8D22276F81BB534" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/AudioBridge.hpp";
+			"sourceTree" = "<group>";
+		};
+		"1FE4E40DD94EBE27DDAF4EED" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/AudioDevices.hpp";
+			"sourceTree" = "<group>";
+		};
+		"711F049094A9D9E64E1A2D9C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/Latency.hpp";
+			"sourceTree" = "<group>";
+		};
+		"411651921B576050ED1C38B9" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/MeterEnvelope.hpp";
+			"sourceTree" = "<group>";
+		};
+		"5D1476CB28CFEEAE7C4DFB85" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/MonoPipeline.hpp";
+			"sourceTree" = "<group>";
+		};
+		"88D6C082E4ED2BD041B229EA" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/Settings.hpp";
+			"sourceTree" = "<group>";
+		};
+		"123495FFA49F4F598BE01551" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/LoginService.hpp";
+			"sourceTree" = "<group>";
+		};
+		"0C42BFF953EE10A0EB670C95" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.h";
+			"path" = "src/SharedMeter.hpp";
+			"sourceTree" = "<group>";
+		};
+		"6E561478C8B2EF0A22345336" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				7AF6E882C25F79D2392FCEC7,
+				2CD7A270A8D22276F81BB534,
+				8EB0058B16BE167EA07B6DCD,
+				1FE4E40DD94EBE27DDAF4EED,
+				674E34017A0C87B7F6F2125D,
+				711F049094A9D9E64E1A2D9C,
+				411651921B576050ED1C38B9,
+				5D1476CB28CFEEAE7C4DFB85,
+				88D6C082E4ED2BD041B229EA,
+				123495FFA49F4F598BE01551,
+				A0F6A3D05F986C084FB16A4F,
+				AE12BDC9316EDDC99C092C1D,
+				0C42BFF953EE10A0EB670C95,
+				C273C48546E625893E52E035,
+				C99E3D07F36E19CB0D2889A7,
+				B1B3BF802A20EE7184B40A5F,
+			);
+			"name" = "Sources";
+			"sourceTree" = "<group>";
+		};
+		"9B6D1392B076EF7DE876F24D" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "driver/Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"98778ED6AAF7CCDFCAD83A32" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				9B6D1392B076EF7DE876F24D,
+				47259AA23AE761014531E924,
+			);
+			"name" = "Audio Driver";
+			"sourceTree" = "<group>";
+		};
+		"C1B60027344ADD3BFE63C663" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "resources/Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"A4C61A808A208E07E17BD310" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"path" = "resources/MonoMic.entitlements";
+			"sourceTree" = "<group>";
+		};
+		"C8EF5A5043227F3EB4F8BD3C" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"path" = "resources/Service-Info.plist";
+			"sourceTree" = "<group>";
+		};
+		"22D02A9EFAC9B3FBBAEBE062" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				C1B60027344ADD3BFE63C663,
+				A4C61A808A208E07E17BD310,
+				E84E52E2C7A6F75BEC6DCF1F,
+				55574484D520B31E854259DD,
+				C8EF5A5043227F3EB4F8BD3C,
+			);
+			"name" = "Resources";
+			"sourceTree" = "<group>";
+		};
+		"687DBE59E8C29319EE2D71AB" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.python";
+			"path" = "tests/rate_follow_live.py";
+			"sourceTree" = "<group>";
+		};
+		"EEFE21A1443933CA4DE017DA" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				687E8B51908C9BF254B476D6,
+				9E08620AD51D14C0CF26E2D1,
+				25AAB31A174AAD76045FCE02,
+				578D0833C2083274F24D2F67,
+				4B1E819D58B09A309E5D9CA3,
+				5488897E1BF99809F93228CB,
+				687DBE59E8C29319EE2D71AB,
+				83DB685737C4D95C93D8153E,
+			);
+			"name" = "Tests";
+			"sourceTree" = "<group>";
+		};
+		"00E52836AA053429C2357208" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/build.sh";
+			"sourceTree" = "<group>";
+		};
+		"6A09FF3D0784A4A2FCC36134" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/install-background.sh";
+			"sourceTree" = "<group>";
+		};
+		"745099485E7F35B7A8E887B5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/install-driver.sh";
+			"sourceTree" = "<group>";
+		};
+		"C7F362D96B844C3ED405E7C8" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.cpp.objcpp";
+			"path" = "scripts/make-icon.mm";
+			"sourceTree" = "<group>";
+		};
+		"C4EF01BA175B081FD6A5E1FF" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/test.sh";
+			"sourceTree" = "<group>";
+		};
+		"2BDBE23FF1024396659E8E1A" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/uninstall-background.sh";
+			"sourceTree" = "<group>";
+		};
+		"CC48C390637A81724251A5D1" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/uninstall-driver.sh";
+			"sourceTree" = "<group>";
+		};
+		"506A5B2F73F17DA70855715B" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"path" = "scripts/xcode-env.sh";
+			"sourceTree" = "<group>";
+		};
+		"B293F2A4508E5EA7D2629486" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				00E52836AA053429C2357208,
+				6A09FF3D0784A4A2FCC36134,
+				745099485E7F35B7A8E887B5,
+				C7F362D96B844C3ED405E7C8,
+				DDDCCB2F31772B3D27674099,
+				C4EF01BA175B081FD6A5E1FF,
+				2BDBE23FF1024396659E8E1A,
+				CC48C390637A81724251A5D1,
+				506A5B2F73F17DA70855715B,
+			);
+			"name" = "Scripts";
+			"sourceTree" = "<group>";
+		};
+		"063F3862C935A00181E9B9DD" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.c.c";
+			"path" = "vendor/BlackHole/BlackHole.c";
+			"sourceTree" = "<group>";
+		};
+		"1BE336FD0EE98DF5FFC83BAC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "vendor/BlackHole/UPSTREAM";
+			"sourceTree" = "<group>";
+		};
+		"D7A56870987029F55B9BCE4F" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "vendor/BlackHole/MODIFICATIONS.md";
+			"sourceTree" = "<group>";
+		};
+		"1A911DB0AE1A08181A27D02E" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				063F3862C935A00181E9B9DD,
+				580130ACC7C6F13BFE1E976D,
+				1BE336FD0EE98DF5FFC83BAC,
+				D7A56870987029F55B9BCE4F,
+			);
+			"name" = "BlackHole (GPL)";
+			"sourceTree" = "<group>";
+		};
+		"ED2F3B048716C9DC7573911C" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				C098C21FBE6D592AC5E723AB,
+				9694B95F4FBF087BF05D19FB,
+				EDEF6E74797027D2A92ADE24,
+				566E8C28AF72A9EE82B30FC0,
+				36B22E90EB926A372F599080,
+				CA001AFAE8D556532763004A,
+				2EE4D479CE80D8D5624CC344,
+				92B1FED2DBA6139B05776B6B,
+				4B001738AB9A52913C4E883F,
+			);
+			"name" = "Frameworks";
+			"sourceTree" = "<group>";
+		};
+		"00C45FD35CB0F9C5F764F070" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				2593192135E37BDAF08F439F,
+				B8381B1D554F5919D67BAB95,
+				774029411BA53ADFDBE70C4F,
+				65EAFD48077813300EED13E9,
+				EAE1BF8E6705BDD63FC212BA,
+				241CABFD6C3C0A968DA4CA14,
+				DC28B2C0DB07920EFD383B6E,
+			);
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"AA4ACA445B3FBAF47CDE31AC" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "net.daringfireball.markdown";
+			"path" = "README.md";
+			"sourceTree" = "<group>";
+		};
+		"BCB338BF6A2FB49A0486CA60" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = "LICENSE";
+			"sourceTree" = "<group>";
+		};
+		"7A4FF7F962C7F66B27D6CDC6" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text";
+			"path" = ".gitignore";
+			"sourceTree" = "<group>";
+		};
+		"DF891E785808226D241F246E" = {
+			"isa" = "PBXGroup";
+			"children" = (
+				6E561478C8B2EF0A22345336,
+				98778ED6AAF7CCDFCAD83A32,
+				22D02A9EFAC9B3FBBAEBE062,
+				EEFE21A1443933CA4DE017DA,
+				B293F2A4508E5EA7D2629486,
+				1A911DB0AE1A08181A27D02E,
+				ED2F3B048716C9DC7573911C,
+				00C45FD35CB0F9C5F764F070,
+				AA4ACA445B3FBAF47CDE31AC,
+				BCB338BF6A2FB49A0486CA60,
+				7A4FF7F962C7F66B27D6CDC6,
+			);
+			"sourceTree" = "<group>";
+		};
+		"877A6BA951A2EA0025A2ABE8" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SUPPORTED_PLATFORMS" = "macosx";
+				"CODE_SIGN_STYLE" = "Manual";
+				"CODE_SIGN_IDENTITY" = "-";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"COPY_PHASE_STRIP" = "NO";
+				"SYMROOT" = "$(SRCROOT)/build.noindex/xcode";
+				"OBJROOT" = "$(SYMROOT)/Intermediates";
+				"GCC_WARN_RETURN_TYPE" = "YES";
+				"CLANG_WARN_BOOL_CONVERSION" = "YES";
+				"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+				"CLANG_WARN_INT_CONVERSION" = "YES";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				"ONLY_ACTIVE_ARCH" = "YES";
+				"ENABLE_TESTABILITY" = "YES";
+				"ENABLE_HARDENED_RUNTIME" = "NO";
+			};
+			"name" = "Debug";
+		};
+		"959134B361DD7E21ADEA3164" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_CXX_LANGUAGE_STANDARD" = "c++17";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu11";
+				"MACOSX_DEPLOYMENT_TARGET" = "13.0";
+				"SDKROOT" = "macosx";
+				"SUPPORTED_PLATFORMS" = "macosx";
+				"CODE_SIGN_STYLE" = "Manual";
+				"CODE_SIGN_IDENTITY" = "-";
+				"CODE_SIGN_INJECT_BASE_ENTITLEMENTS" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"COPY_PHASE_STRIP" = "NO";
+				"SYMROOT" = "$(SRCROOT)/build.noindex/xcode";
+				"OBJROOT" = "$(SYMROOT)/Intermediates";
+				"GCC_WARN_RETURN_TYPE" = "YES";
+				"CLANG_WARN_BOOL_CONVERSION" = "YES";
+				"CLANG_WARN_CONSTANT_CONVERSION" = "YES";
+				"CLANG_WARN_INT_CONVERSION" = "YES";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"GCC_OPTIMIZATION_LEVEL" = "2";
+				"GCC_PREPROCESSOR_DEFINITIONS" = (
+					"$(inherited)",
+					"NDEBUG=1",
+				);
+				"ONLY_ACTIVE_ARCH" = "NO";
+				"ENABLE_TESTABILITY" = "NO";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+			};
+			"name" = "Release";
+		};
+		"247BF104A9AD002C539DA531" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = (
+				877A6BA951A2EA0025A2ABE8,
+				959134B361DD7E21ADEA3164,
+			);
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "2720";
+				"TargetAttributes" = {
+					"21974AAFC08E4A5D83387648" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"065FEFC686A13ED347D8F8B7" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"F02BFAA96364199534CAE1C8" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"61701C83989FD81064500E3A" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"E316F609A300BC7D3DCE23D5" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"16FC051E1864D0EFEDB0D7E7" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+					"141223DC0B9AA6A66233686C" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+				};
+			};
+			"buildConfigurationList" = 247BF104A9AD002C539DA531;
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = "0";
+			"knownRegions" = (
+				"en",
+				"Base",
+			);
+			"mainGroup" = DF891E785808226D241F246E;
+			"productRefGroup" = 00C45FD35CB0F9C5F764F070;
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = (
+				21974AAFC08E4A5D83387648,
+				065FEFC686A13ED347D8F8B7,
+				F02BFAA96364199534CAE1C8,
+				61701C83989FD81064500E3A,
+				E316F609A300BC7D3DCE23D5,
+				16FC051E1864D0EFEDB0D7E7,
+				141223DC0B9AA6A66233686C,
+			);
+		};
+	};
+	"rootObject" = 98F54143AB4E86B28C3AFEE0;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>local.motu.monomic.service</string>
+  <key>CFBundleName</key><string>Mono Mic Service</string>
+  <key>CFBundleDisplayName</key><string>Mono Mic Service</string>
+  <key>CFBundleExecutable</key><string>MonoMicService</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleVersion</key><string>21</string>
+  <key>CFBundleShortVersionString</key><string>0.8.0</string>
+  <key>CFBundleIconFile</key><string>MonoMic.icns</string>
+  <key>LSMinimumSystemVersion</key><string>13.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSMicrophoneUsageDescription</key><string>Keep routing your selected audio interface input to the local mono virtual microphone while settings is closed.</string>
+</dict></plist>

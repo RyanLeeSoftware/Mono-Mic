@@ -1,0 +1,12 @@
+#!/bin/bash
+set -euo pipefail
+source "$(dirname "$0")/common.sh"
+volume="${3:-/}"
+root="$(cd "$volume" && pwd -P)"; root="${root%/}"
+check_parents "$root"
+check_bundle "$root/Applications/Mono Mic.app" 'local.motu.monomic'
+check_bundle "$root/Library/Audio/Plug-Ins/HAL/MOTUMonoMic.driver" 'local.motu.monomic.driver'
+if [ -z "$root" ]; then
+    [ "$EUID" -eq 0 ] || { printf 'Installer requires administrator authorization.\n' >&2; exit 1; }
+    stop_managed_apps
+fi
